@@ -1,0 +1,77 @@
+
+body{
+    background-image: url('Bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: 100% 100%;   
+}
+.back{
+    margin-top: 18px;
+    margin-left: 45px;
+    width: 220px;
+    height: 45px;
+}
+.button {
+    background-color: #fa7500; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px
+  }
+.button:hover{
+    color:#FFFF;
+    background-color: rgb(255, 140, 00);
+}
+
+.topnav {
+  display: flex;
+  overflow: hidden;
+  background-color: #000000;
+}
+.topnav1 {
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-left: 630px;
+    height: 70px;
+  justify-content: right;
+  align-items: right;
+  display: flex;
+  overflow: hidden;
+  background-color: #000000;
+}
+.topnav1 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav1 a.active {
+    display: flex;
+    color: white;
+  }
+  
+.topnav1 a:hover {
+  color: rgb(255, 255, 255);
+}
+.btn{
+    text-align: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    height: 15px;
+}
+p{  
+    margin-top: 200px;
+    font-family: sans-serif;    
+    font-size: 45px;
+}
+label{
+    color: #f2f2f2;
+}
